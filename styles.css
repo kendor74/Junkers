@@ -54,9 +54,9 @@
     background-color: var(--primary-color)
 }
 
-@supports(scrollbar-color:var(--primary-dark) var(--secondary-black)) {
+@supports(scrollbar-color:#005F9E) {
     * {
-        scrollbar-color: var(--primary-dark) var(--secondary-black)
+        scrollbar-color: #005F9E
     }
 }
 
@@ -281,7 +281,7 @@ ul {
     white-space: nowrap;
     -webkit-animation: slideIn 3s infinite;
     animation: slideIn 3s infinite;
-    color: var(--primary-color)
+    color: #B0D0E8
 }
 
 @-webkit-keyframes slideIn {
@@ -562,7 +562,7 @@ ul {
 
 .hotline-ele a {
     display: inline-block;
-    background-color: var(--primary-color);
+    background-color: #B0D0E8;
     color: var(--primary-white);
     text-decoration: none;
     padding: 12px 24px;
@@ -600,7 +600,7 @@ section {
 
 section h2 {
     color: var(--primary-white);
-    background-color: var(--primary-color);
+    background-color: #005F9E;
     padding: 20px;
     margin: 15px;
     border-radius: 20px
@@ -610,8 +610,8 @@ header {
     height: var(--screen-height);
     width: 100%;
     position: relative;
-    background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, .5)), to(rgba(0, 0, 0, .5))), url(assets/hero-img.webp) no-repeat center fixed;
-    background: linear-gradient(to right, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(assets/hero.png) no-repeat center fixed;
+    background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, .5)), to(rgba(0, 0, 0, .5))), url(assets/junkheo.jpg) no-repeat center fixed;
+    background: linear-gradient(to right, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(assets/junkheo.jpg) no-repeat center fixed;
     background-size: cover;
     background-position: center top
 }
@@ -699,7 +699,7 @@ section.services {
 }
 
 .section-row p .highlight {
-    color: var(--primary-color)
+    color: #005F9E
 }
 
 .section-row.rv {
@@ -847,7 +847,7 @@ section.testos h2 {
 
 
 footer {
-    background-color: #29040f;
+    background-color: #005F9E;
     color: white;
     text-align: center;
     padding: 30px 20px;
@@ -858,10 +858,11 @@ footer {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 20px;
+    gap: 5px;
     max-width: 1200px;
     margin: auto;
     align-items: center;
+    margin-left:40px;
   }
   
   .footer-hotline {
@@ -971,8 +972,8 @@ footer {
 
     
     header {
-        height: 100vh;
-        background-position: 50%
+        height: 105vh;
+        background-position: 70%
     }
 
     section.services {
