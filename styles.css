@@ -610,8 +610,8 @@ header {
     height: var(--screen-height);
     width: 100%;
     position: relative;
-    background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, .5)), to(rgba(0, 0, 0, .5))), url(assets/junkheo.jpg) no-repeat center fixed;
-    background: linear-gradient(to right, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(assets/junkheo.jpg) no-repeat center fixed;
+    background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, .5)), to(rgba(0, 0, 0, .5))), url(assets/junkheo.png) no-repeat center fixed;
+    background: linear-gradient(to right, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(assets/junkheo.png) no-repeat center fixed;
     background-size: cover;
     background-position: center top
 }
@@ -800,8 +800,8 @@ section.testos h2 {
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-    background: var(--primary-color);
-    color: var(--primary-white);
+    background: #005f9e;
+    color: #fff;
     -webkit-transition: background-color .3s ease-in-out;
     transition: background-color .3s ease-in-out;
     font-size: 3rem;
@@ -810,7 +810,7 @@ section.testos h2 {
 }
 
 .arrow:hover {
-    background: var(--primary-light)
+    background: #b0d0e8
 }
 
 .left {
